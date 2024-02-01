@@ -34,5 +34,7 @@ cout<<"Cost: $"
 cout<<"This estimate is valide for"<<estimate_expiry<<"days"<<endl;
 cout<<endl;
 
+cout<<"";
+
     return 0;
 }
