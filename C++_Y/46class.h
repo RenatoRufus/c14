@@ -9,12 +9,15 @@ public:
     int tipo;
     
 private:
-    string nome;
+    
     int vel;
     bool ligado;
 
-};
+}
 
 
 
-#endif  //CLASSES_H_INCLUDED
+#endif  /*CLASSES_H_INCLUDED*/
+
+
+
