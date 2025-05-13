@@ -7,6 +7,8 @@ int main(){
     int n1,n2,res;
     char opc;
 
+    inicio:    //label
+
     cout<<"Digite o valor da nota 1: ";
     cin>> n1;
 
@@ -22,6 +24,13 @@ int main(){
     }else{
         cout<<"\nReprovado\n";
 
+    }
+
+    cout<<"\nDigitar outras notas (s/n): \n";
+    cin>>opc;
+
+    if(opc == 's' or opc == 'S'){
+        goto inicio;
     }
 
 
