@@ -23,8 +23,9 @@ int main(){
         <60  reprovado
     */
 
-    (nota >= 60) ? res="Aprovado" : res="Reprovado"; 
-    
+    //(nota >= 60) ? res="Aprovado" : res="Reprovado"; 
+    res=(nota >=60) ? "Aprovado" : "Reprovado";
+
     cout<<"\nSituação do aluno: " << res <<"\n";
 
 
