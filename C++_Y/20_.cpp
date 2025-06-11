@@ -22,7 +22,48 @@ int main(){
 
     system("Clear");
 
+    while (palavra[i] != '\0')
+    {
+        i++;
+        tam++;
+    }
 
-
+    for (i=0;i<30; i++)
+    {
+        secreta[i]='-';
+    }
+    
+    while((chances > 0)&&(acertos < tam)){
+        cout<<"Chances restantes: " << chances <<"\n\n";
+        cout<<"Palavra secreta: ";
+        for (i = 0; i < tam; i++)
+        {
+            cout<< secreta[i];
+        }
+        cout<<"\n\nDigite uma letra: ";
+        cin>>letra[0];
+        for (i = 0; i < tam; i++)
+        {
+            if (palavra[i]==letra[0])
+            {
+            acerto=true;
+            secreta[i]=palavra[i];
+            acertos++;
+            }    
+        }
+        if (!acerto)
+        {
+            chances--;
+        }
+        acerto=false;
+        system("clear");     
+    }
+    if (acertos==tam)
+    {
+        cout<<"Você venceu!";
+    }else{
+        cout<<"Que pena, você perdeu!";
+    }
+     
     return 0;
 }
