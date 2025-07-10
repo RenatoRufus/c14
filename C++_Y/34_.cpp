@@ -15,6 +15,7 @@ using namespace std;
         void insere(string stnome, string stcor, int stpot, int stvelmax){
          nome=stnome;
          cor=stcor;
+         pot=stpot;
          velMax=stvelmax; 
          vel=0;  
         }
