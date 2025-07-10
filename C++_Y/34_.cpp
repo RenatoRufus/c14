@@ -9,25 +9,48 @@ using namespace std;
         string cor;
         int pot;
         int velMax; 
+        int vel;
 
+        //função
+        void insere(string stnome, string stcor, int stpot, int stvelmax){
+         nome=stnome;
+         cor=stcor;
+         velMax=stvelmax; 
+         vel=0;  
+        }
+
+
+        void mostra(){
+
+            cout<<"\nNome.............: " << nome<< "\n";
+            cout<<"Cor..............: " << cor<< "\n";
+            cout<<"Potencia.........: " << pot<< "\n";
+            cout<<"Velocidade..atual: " << vel<< "\n";
+            cout<<"Velocidade.Maxima: " << velMax<< "\n";
+        }
+
+        void mudaVel(int mv){
+            vel=mv;
+            if(vel > velMax){
+                vel=velMax;
+            }
+            if(vel < 0){
+                vel=0;
+            }
+        }
 
     };
 
 
 int main(){
 
-    carro car1;
+    carro car1,car2,car3,car4;
 
-    car1.nome="Tornado";
-    car1.cor="Vermelho";
-    car1.pot=450;
-    car1.velMax=350;
+    car1.insere("Tornado","vermelho",450,350);
+    car2.insere("Luxo","Preto",250,260);
 
-    cout<<"Nome.............: " << car1.nome<< "\n\n";
-    cout<<"Cor..............: " << car1.cor<< "\n\n";
-    cout<<"Potencia.........: " << car1.pot<< "\n\n";
-    cout<<"Velocidade Maxima: " << car1.velMax<< "\n\n";
-   
+    car1.mostra();
+    car2.mostra();
 
 
 
