@@ -1,3 +1,4 @@
+//C++ #42 - Vector
 #include <iostream>
 #include <vector>
 
@@ -9,7 +10,7 @@ int main(){
     vector<int> num;
     vector<int> num2;
 
-    int tam,i;
+    int tam1,tam,i;
 
     num.push_back(1);
     num.push_back(2);
@@ -22,8 +23,16 @@ int main(){
     num2.push_back(7);
     num2.push_back(8); 
     //num.swap(num2);
+    //insert
+    //erase
+    //clear
+    //pop_back
 
+
+    
+    
     tam=num.size();
+
 
 
     cout<<"Primeiro elemento de num: "<<num.front() << endl;
