@@ -9,7 +9,7 @@ public:
     int velMax;
     std::string tipo;
     Aviao(int tp);
-    void imprimir();
+    void Aviao::imprimir();
     
     private:
 
@@ -29,11 +29,11 @@ Aviao::Aviao(int tp){
 
 }
 
-void Aviao imprimir(){
+void Aviao::imprimir(){
 
-    std::cout<<"Tipo.............: "<< tipo << endl;
-    std::cout<<"Velocidade máxima: "<< velMax << endl;
-    std::cout<<"Velocidade atual.: "<< vel << endl;
+    std::cout<<"Tipo.............: "<< tipo << std::endl;
+    std::cout<<"Velocidade máxima: "<< velMax << std::endl;
+    std::cout<<"Velocidade atual.: "<< vel << std::endl;
 
 }
 
