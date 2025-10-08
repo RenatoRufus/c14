@@ -6,8 +6,8 @@ using namespace std;
 int main(){
 
     Moto *v1=new Moto();
-
-    cout<< v1-> rodas;
+    v1->imp();
+    //cout<< v1-> rodas;
 
 
     return 0;
