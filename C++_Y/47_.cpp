@@ -1,3 +1,4 @@
+//POO, Classes, Herança
 #include <iostream>
 #include "classes2.h"
 
@@ -9,6 +10,11 @@ int main(){
     v1->imp();
     //cout<< v1-> rodas;
 
+    Carro *v2= new Carro();
+        v2->imp();
+
+
+    v1->imp();
 
     return 0;
 }

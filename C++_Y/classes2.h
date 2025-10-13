@@ -63,6 +63,20 @@ Moto::Moto(){   //metodo construtor
 
 }
 
+class Carro::public Veiculo{
+    public:
+    Carro();
+};
+
+Carro::Carro(){
+     vel = 0;
+    blind=0;
+    rodas=4;
+    setTipo(2);
+    setVelMax(180);
+    setArma(false);
+}
+
 
 
 #endif
