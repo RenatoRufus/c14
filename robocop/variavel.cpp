@@ -12,6 +12,7 @@ int main(){
     std::cout<<"Pontuação: "<< Score << std::endl;
     std::cout<<"Endereço Numvidas na memória ram"<<&NumVidas<<"\n";
     std::cout<<"*********************"<<std::endl;
+    std::cout<<"Tamanho variável na memória "<< sizeof(NumVidas) <<"Bytes"<<"\n";
     //system("Pause");
 
 }
