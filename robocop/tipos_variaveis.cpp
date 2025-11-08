@@ -10,7 +10,7 @@ int main(){
 
     cout<<"Numero: "<< numero <<endl;
     cout<<"Tamanho variavel numero: "<< sizeof(numero)<<"\n";
-    cout<<""
+    
 
 
     return 0;
