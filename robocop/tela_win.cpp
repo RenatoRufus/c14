@@ -1,4 +1,4 @@
-    //testar no windows
+    //testar no windows s
     
     system("MODE CON: COLS=80 LINES=40");
 
