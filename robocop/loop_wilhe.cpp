@@ -1,5 +1,7 @@
 #include <iostream>
 #include <iomanip> //necessário para uso do set precision
+                   // comandos similares são usados para 
+                   //controlar a quantidade de casas decimais em números de ponto flutuante 
 
 using namespace std;
 
