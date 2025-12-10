@@ -1,7 +1,8 @@
 #include <iostream>
+//#include <tchar.h>
 //comentário para github
 
-
+// _tsetlocale(LC_ALL, _T("portuguese"));
 int main(){
 
     double Numero;
